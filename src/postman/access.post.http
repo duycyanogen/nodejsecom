@@ -1,0 +1,23 @@
+### signup
+@url_dev=http://localhost:3052/v1/api/
+
+POST {{url_dev}}/shop/signup
+Content-type: application/json
+x-api-key: 9a80f1b1e748abd7a26cea31478ca70b226ab87640c88a844edd74ac57d2efc3ec68c116cacc56de824763ce63aa828d4ad663748c833c268b7559e6bc922fce
+
+{
+    "name": "Duy shop35",
+    "email": "duyzpcm35@gmai.com",
+    "password":"123456"
+}
+
+###login
+POST {{url_dev}}/shop/login
+Content-type: application/json
+x-api-key: 9a80f1b1e748abd7a26cea31478ca70b226ab87640c88a844edd74ac57d2efc3ec68c116cacc56de824763ce63aa828d4ad663748c833c268b7559e6bc922fce
+
+{
+    "name": "Duy shop35",
+    "email": "duyzpcm35@gmai.com",
+    "password":"123456"
+}
